@@ -1,0 +1,59 @@
+html{
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  align-items: center;
+  background: linear-gradient(38deg, #000000, #fff);
+  display: flex;
+  font-display: swap;
+  height: inherit;
+  justify-content: center;
+}
+
+.wrapper{
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid #000000;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px #000000;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  background: #0000;
+  border: 1px solid #000;
+  flex-basis: 400px;
+  height: 100%;
+  max-height: 640px;
+  padding: 20% 30px;
+  
+}
+
+.tela{
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(55.5px);
+  font-size: 35px;
+  height: 37px;
+  text-align: right;
+}
+
+.calc-button{
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid black;
+  margin: 9.6px;
+  padding: 19px;
+  }
+
+  .calc-buttons{
+    
+  }
